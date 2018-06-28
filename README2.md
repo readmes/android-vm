@@ -1,4 +1,4 @@
-WHAT, WHY, AND HOW: android-vm
+android-vm [![what-why](https://img.shields.io/badge/content-what%2Fwhy-brightgreen.svg)]() [![how](https://img.shields.io/badge/content-how-green.svg)]()
 ==========
 
 Automated provisioning and configuration of an Ubuntu VM containing the Android development environment, including Android ADT Bundle with SDK, Eclipse &amp; the Android NDK using the Vagrant DevOps tool with Chef and shell-scripts.
@@ -18,7 +18,7 @@ Currently, it will provision an Android VM for development with the following sp
 - [Android ADT Bundle 20130729 (SDK r22.0.5 &amp; Eclipse)](http://dl.google.com/android/adt/adt-bundle-linux-x86_64-20130729.zip)
 - [Android NDK r9](http://dl.google.com/android/ndk/android-ndk-r9-linux-x86_64.tar.bz2)
 
-## WHAT, WHY, AND HOW: Clone the Android VM Code Repository
+## Clone the Android VM Code Repository [![what-why](https://img.shields.io/badge/content-what%2Fwhy-brightgreen.svg)]() [![how](https://img.shields.io/badge/content-how-green.svg)]()
 
 1. Create a working directory to use for the Android VM project in, e.g. /csci65/android-vm or C:/csci65/android-vm
 
@@ -47,7 +47,7 @@ Currently, it will provision an Android VM for development with the following sp
 	[https://github.com/rickfarmer/android-vm/archive/master.zip](https://github.com/rickfarmer/android-vm/archive/master.zip)
 
 
-## HOW: Install Vagrant
+## Install Vagrant [![how](https://img.shields.io/badge/content-how-green.svg)]()
 
 Note: Vagrant has a prerequisite of an installed and functioning version of one of the following virtualization products,
 
@@ -60,7 +60,7 @@ Note: Vagrant has a prerequisite of an installed and functioning version of one 
 2. If using VMware, install the purchased VMware Provider Plug-in as mentioned in the documentation
 
 
-## WHAT, WHY, AND HOW: Install the Android VM
+## Install the Android VM [![what-why](https://img.shields.io/badge/content-what%2Fwhy-brightgreen.svg)]() [![how](https://img.shields.io/badge/content-how-green.svg)]()
 
 _Note: All the software needed is automatically downloaded as it is needed.  Several of the downloads are somewhat large.  Patience is a virtue while the automated installation is running._
 
@@ -98,7 +98,7 @@ _Note: All the software needed is automatically downloaded as it is needed.  Sev
 	_The net effect is that anything you drop in your local working directory, e.g. e.g. /csci65/android-vm or c:\csci65\android-vm, can be accessed from within the VM by opening the directory "/vagrant" and vice-versa_
 
 
-## HOW: Manually Configure the Android VM in the Virtualization Provider
+## Manually Configure the Android VM in the Virtualization Provider [![how](https://img.shields.io/badge/content-how-green.svg)]()
 	
 To connect an Android device you must manually setup a USB connection mapping for your Android device to the new VM	
 	
@@ -124,7 +124,7 @@ For example, if using VMware Fusion perform the following steps,
 _Note: Additionally you may want to change various settings in the Virtualization Provider to size memory and vCPUs allocated to the Android VM_
 _Note: To open the terminal from desktop, use ctrl-alt-T for PC or control-option-T for Mac
 
-### WHAT, WHY, AND HOW: Vagrant Basics &amp; Workflow
+### Vagrant Basics &amp; Workflow [![what-why](https://img.shields.io/badge/content-what%2Fwhy-brightgreen.svg)]() [![how](https://img.shields.io/badge/content-how-green.svg)]()
 
 Vagrant boxes are just pre-configured virtual machines that Vagrant uses as a template to clone.
 
@@ -192,7 +192,7 @@ If you are interested in the other options Vagrant offers, please see the man he
 	$ vagrant --help
 
 
-### REFERENCES: References
+### References [![references](https://img.shields.io/badge/content-references-orange.svg)]()
 
 1. [Vagrant v2 documentation](http://docs.vagrantup.com/v2/getting-started/)
 2. [http://www.vagrantbox.es/](http://www.vagrantbox.es/)

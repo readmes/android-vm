@@ -1,4 +1,4 @@
-android-vm [![what-why](https://cs.adelaide.edu.au/~christoph/badges/content-what%2Fwhy-brightgreen.svg)]() [![how](https://cs.adelaide.edu.au/~christoph/badges/content-how-green.svg)]()
+android-vm [![what-why](https://cs.adelaide.edu.au/~christoph/badges/content-what-why-brightgreen.svg)]() [![how](https://cs.adelaide.edu.au/~christoph/badges/content-how-green.svg)]()
 ==========
 
 Automated provisioning and configuration of an Ubuntu VM containing the Android development environment, including Android ADT Bundle with SDK, Eclipse &amp; the Android NDK using the Vagrant DevOps tool with Chef and shell-scripts.
@@ -18,7 +18,7 @@ Currently, it will provision an Android VM for development with the following sp
 - [Android ADT Bundle 20130729 (SDK r22.0.5 &amp; Eclipse)](http://dl.google.com/android/adt/adt-bundle-linux-x86_64-20130729.zip)
 - [Android NDK r9](http://dl.google.com/android/ndk/android-ndk-r9-linux-x86_64.tar.bz2)
 
-## Clone the Android VM Code Repository [![what-why](https://cs.adelaide.edu.au/~christoph/badges/content-what%2Fwhy-brightgreen.svg)]() [![how](https://cs.adelaide.edu.au/~christoph/badges/content-how-green.svg)]()
+## Clone the Android VM Code Repository [![what-why](https://cs.adelaide.edu.au/~christoph/badges/content-what-why-brightgreen.svg)]() [![how](https://cs.adelaide.edu.au/~christoph/badges/content-how-green.svg)]()
 
 1. Create a working directory to use for the Android VM project in, e.g. /csci65/android-vm or C:/csci65/android-vm
 
@@ -60,7 +60,7 @@ Note: Vagrant has a prerequisite of an installed and functioning version of one 
 2. If using VMware, install the purchased VMware Provider Plug-in as mentioned in the documentation
 
 
-## Install the Android VM [![what-why](https://cs.adelaide.edu.au/~christoph/badges/content-what%2Fwhy-brightgreen.svg)]() [![how](https://cs.adelaide.edu.au/~christoph/badges/content-how-green.svg)]()
+## Install the Android VM [![what-why](https://cs.adelaide.edu.au/~christoph/badges/content-what-why-brightgreen.svg)]() [![how](https://cs.adelaide.edu.au/~christoph/badges/content-how-green.svg)]()
 
 _Note: All the software needed is automatically downloaded as it is needed.  Several of the downloads are somewhat large.  Patience is a virtue while the automated installation is running._
 
@@ -124,7 +124,7 @@ For example, if using VMware Fusion perform the following steps,
 _Note: Additionally you may want to change various settings in the Virtualization Provider to size memory and vCPUs allocated to the Android VM_
 _Note: To open the terminal from desktop, use ctrl-alt-T for PC or control-option-T for Mac
 
-### Vagrant Basics &amp; Workflow [![what-why](https://cs.adelaide.edu.au/~christoph/badges/content-what%2Fwhy-brightgreen.svg)]() [![how](https://cs.adelaide.edu.au/~christoph/badges/content-how-green.svg)]()
+### Vagrant Basics &amp; Workflow [![what-why](https://cs.adelaide.edu.au/~christoph/badges/content-what-why-brightgreen.svg)]() [![how](https://cs.adelaide.edu.au/~christoph/badges/content-how-green.svg)]()
 
 Vagrant boxes are just pre-configured virtual machines that Vagrant uses as a template to clone.
 

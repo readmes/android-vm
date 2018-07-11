@@ -1,4 +1,4 @@
-android-vm [![what-why](https://cs.adelaide.edu.au/~christoph/badges/content-what-why-brightgreen.svg)] [![how](https://cs.adelaide.edu.au/~christoph/badges/content-how-green.svg)]
+android-vm ![what-why](https://cs.adelaide.edu.au/~christoph/badges/content-what-why-brightgreen.svg) ![how](https://cs.adelaide.edu.au/~christoph/badges/content-how-green.svg)
 ==========
 
 Automated provisioning and configuration of an Ubuntu VM containing the Android development environment, including Android ADT Bundle with SDK, Eclipse &amp; the Android NDK using the Vagrant DevOps tool with Chef and shell-scripts.
